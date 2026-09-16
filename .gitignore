@@ -1,0 +1,26 @@
+# 排除模型权重
+models/*.pth
+models/*.pt
+
+# 排除 Python 缓存
+__pycache__/
+*.py[cod]
+
+# 排除解压出来的原始数据集（绝对不能让它们进去）
+data/tdts_dataset/
+data/tdts_single_char/
+data/tdts_masks/
+data/mnist_compact_20x20/
+data/cvl_single_char/
+data/cvl_double_char/
+*.idx3-ubyte
+*.npy
+*.gz
+
+# 排除系统文件
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
