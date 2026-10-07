@@ -1,8 +1,8 @@
 # 连通手写数字的图论分割方法与数据集构建
 
-本仓库是论文 **"Research on Graph Theory Segmentation Method and Dataset Construction for Connected Handwritten Digits"**（PLOS ONE，在审）的完整开源代码与数据，包含：
+本仓库是论文 **"Research on graph theory segmentation method and dataset construction for connected handwritten digits"**（PLOS ONE，在审）的完整开源代码与数据，包含：
 
-- **TDTS 数据集**（Two-digit Touching Segmentation，两位数字粘连分割）的构建流程与生成代码；
+- **TDTS 数据集**（Two-digit touching segmentation，两位数字粘连分割）的构建流程与生成代码；
 - 本文提出的 **切割域（cutting domain）图论分割框架** 及 **A\* / Dijkstra** 系列算法的实现；
 - 对比方法 **VPM（垂直投影）**、**WA（分水岭）** 的实现；
 - **U-Net 分割对比实验**；
@@ -12,7 +12,7 @@
 
 ## 论文信息
 
-- **标题**：Research on Graph Theory Segmentation Method and Dataset Construction for Connected Handwritten Digits
+- **标题**：Research on graph theory segmentation method and dataset construction for connected handwritten digits
 - **作者**：Zhilai Zhang, Yang Zhang, Yang Wang
 - **通讯作者**：zhangzl@hdc.edu.cn
 - **单位**：邯郸学院信息工程学院，河北科技大学信息科学与工程学院
@@ -229,7 +229,7 @@ cd ../..
 
 ```bibtex
 @article{zhang2025graph,
-  title   = {Research on Graph Theory Segmentation Method and Dataset Construction for Connected Handwritten Digits},
+  title   = {Research on graph theory segmentation method and dataset construction for connected handwritten digits},
   author  = {Zhang, Zhilai and Zhang, Yang and Wang, Yang},
   journal = {PLOS ONE},
   year    = {2025},
@@ -251,8 +251,7 @@ Copyright (c) 2025 Zhilai Zhang, Yang Zhang, Yang Wang
 在符合 MIT 许可证条款的前提下，你可以自由使用、复制、修改、合并、发布、分发、再许可和/或销售本软件的副本。
 
 ---
-## 八、许可与联系方式
+## 八、联系方式
 
 - 通讯作者：zhangzl@hdc.edu.cn
 - 单位：邯郸学院信息工程学院
-- 本仓库代码与数据仅供学术研究使用。
