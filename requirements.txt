@@ -1,0 +1,16 @@
+﻿# Python >= 3.9
+# 论文 5.1 的实验环境：Python 3.9 + PyTorch 1.12.0（CPU，Intel i7-3630QM / 16GB）
+# 代码也在 Python 3.13 + PyTorch 2.9.1 下验证通过
+
+torch>=1.12
+torchvision>=0.13
+numpy>=1.21
+pandas>=1.3
+Pillow>=9.0
+matplotlib>=3.5
+scipy>=1.7
+tqdm>=4.62
+numba>=0.55
+inputimeout>=1.0.4
+opencv-python>=4.5
+seaborn>=0.11

@@ -1,26 +1,40 @@
-# 排除模型权重
+﻿# 排除模型权重（体积过大，需自行训练生成，见 README 第 3 节）
 models/*.pth
 models/*.pt
 
 # 排除 Python 缓存
 __pycache__/
 *.py[cod]
+*.nbc
+*.nbi
 
-# 排除解压出来的原始数据集（绝对不能让它们进去）
+# 排除原始/生成的 MNIST 数据集
+data/_mnist_source/
+data/mnist_compact_20x20/
+data/tdts_build_inputs/
 data/tdts_dataset/
 data/tdts_single_char/
 data/tdts_masks/
-data/mnist_compact_20x20/
 data/cvl_single_char/
 data/cvl_double_char/
 *.idx3-ubyte
 *.npy
 *.gz
 
-# 排除系统文件
+# 排除可再生的统计聚合表（results/ 下的实验原始 CSV 仍纳入版本管理）
+results/stats/
+results/seed_search/
+results/figures/
+
+# 排除系统文件与编辑器配置
 .venv/
 venv/
 .DS_Store
 Thumbs.db
 .idea/
 .vscode/
+
+# 排除流水线运行时产生的批次结果（历史结果已归档到 results/）
+**/outPut/
+**/outPutTest/
+**/outPutCVlTest/
